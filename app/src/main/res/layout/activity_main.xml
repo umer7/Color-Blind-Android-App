@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+
+
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginStart="32dp"
+        android:background="#1E88E5"
+        android:text="Test"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Exercise"
+        app:layout_constraintEnd_toStartOf="@+id/Exercise"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/Exercise"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:background="#1E88E5"
+        android:text="Exercise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/about"
+        app:layout_constraintStart_toEndOf="@+id/test" />
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/about"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="#1E88E5"
+        android:text="Result"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Exercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Exercise" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        materialdesign:srcCompat="@mipmap/home_pic" />
+
+
+</android.support.constraint.ConstraintLayout>

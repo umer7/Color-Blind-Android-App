@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test_Activity15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/showLayout15"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:background="#1E88E5"
+            android:text="Wrong Answer"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/org15"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainLayout15">
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:src="@mipmap/before"
+        android:background="#1E88E5"
+        android:id="@+id/backBtn15"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:src="@mipmap/home"
+        android:background="#1E88E5"
+        android:id="@+id/homeBtn15"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#1E88E5"
+        android:src="@mipmap/next"
+        android:id="@+id/nextBtn15"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/test15"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image15"
+        android:layout_below="@+id/backBtn15"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="What do you see ?"
+        android:textSize="20dp"
+        android:layout_below="@+id/image15"
+        android:id="@+id/txt15"
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/input15"
+        android:inputType="number"
+        android:layout_below="@+id/txt15"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="CHECK"
+        android:background="#1E88E5"
+        android:textColor="#fff"
+        android:id="@+id/checkBtn15"
+        android:layout_below="@+id/input15"/>
+    </RelativeLayout>
+</RelativeLayout>

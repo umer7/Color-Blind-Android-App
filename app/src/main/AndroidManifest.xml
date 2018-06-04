@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spy.hci1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".exercise" />
+        <activity android:name=".test1" />
+        <activity android:name=".TestActivity12" />
+        <activity android:name=".Test_Activity15" />
+        <activity android:name=".Test_Activity16"></activity>
+        <activity android:name=".Test_Activity17"></activity>
+        <activity android:name=".Test_Activity18"></activity>
+        <activity android:name=".Test_Activity19"></activity>
+        <activity android:name=".TestActivity8"></activity>
+    </application>
+
+</manifest>
