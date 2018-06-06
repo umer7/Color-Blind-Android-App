@@ -1,3 +1,3 @@
 # Color-Blind-Android-App
 
-![Alt text](/screenshots/11.png "Optional Title")
+![Alt text](/app/screenshots/11.png "Optional Title")
